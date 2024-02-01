@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^brands/([^/]+)$ brands.php?brand=$1 [L]

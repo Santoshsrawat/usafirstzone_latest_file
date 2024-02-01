@@ -1,0 +1,260 @@
+.blogs 
+{
+    width: 95%;
+    margin: 0 auto; 
+    padding: 30px 0; 
+} 
+
+.blogs .blog-left 
+{
+    background-color: #fff;
+    padding:30px;
+}
+.blogs .blog-left img 
+{
+    display: flex;
+    margin: 0 auto 40px auto;
+    width: 100%;
+    height: 300px;
+}
+.blogs .blog-left h3 
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Gill Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.blogs .blog-left .upload-date 
+{
+    font-size: 12px;
+    color: #333;
+    font-family: Verdana,sans-serif;
+}
+.blogs .blog-left .upload-date a 
+{
+    text-decoration: underline !important;
+}
+
+.blogs .blog-left .first-section  
+{
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.blog-left .second-section 
+{
+    padding: 50px 0 0 0;
+}
+
+.blog-left .second-section h3 
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Gill Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+.blog-left .second-section p 
+{
+    font-size: 16px;
+    color: #333;
+    font-family: 'Gill Sans', sans-serif;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+
+/* ============================================== */
+.blogs .blog-right 
+{
+    background-color: #fff;
+    padding:30px  20px;
+} 
+.blogs .blog-right h3 
+{
+    font-size: 34px;
+    color: #333;
+    font-weight: 500;
+    font-family: 'Gill Sans', sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+}
+.blogs .blog-right h3:before 
+{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #333;
+    border-radius: 50px;
+    width: 40%;
+    bottom: -5px;
+}
+.blogs .blog-right .blogs-links a 
+{
+    text-decoration: underline !important;
+    font-size: 16px;
+} 
+.blogs .blog-right .blogs-links a:hover 
+{
+    color: #333;
+}
+
+
+/* ********************************************* */
+/* ***           terms_conditions                */
+/* ********************************************* */
+
+.terms_conditions 
+{
+    width: 90%;
+    margin: 40px auto ;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.terms_conditions h2 {
+    text-align: center;
+    margin:10px auto 40px auto;
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+}
+.terms_conditions  p
+{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin: 20px 0;
+}
+.terms_conditions  p strong 
+{
+    font-size: 18px;
+}
+.terms_conditions  h4 
+{
+    font-weight: 600;
+    font-size: 22px;
+    color: #333;
+    margin: 20px 0;
+    font-family: "Poppins",sans-serif;
+}
+.terms_conditions ul  li 
+{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    list-style:circle !important;
+}
+
+
+/* ********************************************* */
+/* ***           contact_us                */
+/* ********************************************* */
+.contact-page
+{
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.contact-page .contact_us_page 
+{
+    width: 80%;
+    /* background-color: #000; */
+    display: flex;
+    margin: 0 auto !important;
+    align-items: center;
+}
+.contact_us_page img 
+{
+    width: 100%;
+}
+.contact_us_page .info 
+{
+    margin-bottom: 15px !important;
+}
+.contact_us_page .info p
+{
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #333;
+    font-weight: 400;
+    font-family: "Poppins",sans-serif;
+}
+.contact_us_page .info  span  a 
+{
+    color: #333;
+    font-size: 16px;
+    margin: 15px 0 !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.contact_us_page .info  span  a:hover 
+{
+    color: orangered;
+}
+
+
+/* ********************************************* */
+/* ***           about us                */
+/* ********************************************* */
+.about-section .img-1
+{
+    width:40% ;
+    z-index: 999;
+}
+.about-section .img-4
+{
+    width:40% ;
+}
+.about-section .img-2
+{
+    width: 35%;
+    z-index: 999;
+}
+.about-section .img-3
+{
+    width: 35%;
+}
+.about-section .about-content 
+{
+    margin-top: 2%;
+}
+
+
+@media (max-width:991.5px)
+{
+    .about-section .image-section
+    {
+        display: flex;
+    }
+    .about-section img 
+    {
+        display: flex;
+        margin: 0 auto;
+        width: 120px;
+    }
+}
+
+@media (max-width:500px)
+{
+    .about-section .img-1 
+    {
+        display: flex;
+        margin: 20px auto 0;
+        width: 100%;
+    }
+    .about-section .img-3,
+    .about-section .img-2,
+    .about-section .img-4
+    {
+        display: none;
+    }
+    .about-content p 
+    {
+        font-size: 14px;
+    }
+}
